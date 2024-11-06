@@ -1,0 +1,32 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definindo a cor de fundo e centralizando o conteúdo */
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Garante que o body tenha a altura total da viewport */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo adicional para um contêiner */
+.container {
+  text-align: center;
+  /* Centraliza o texto */
+  max-width: 800px;
+  /* Limita a largura do conteúdo */
+  padding: 20px;
+  background-color: rgb(31, 29, 29);
+  /* Opcional: para destaque do conteúdo */
+  border-radius: 10px;
+  /* Opcional: cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Opcional: sombra para destaque */
+}
