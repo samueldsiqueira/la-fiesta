@@ -1,8 +1,9 @@
+import React from 'react';
 function Home() {
   return (
     <div>
       <div>
-        <h1>Projeto Vem pra Festa</h1>
+        <h1>Projeto Olha Festa</h1>
         <div>
           <span>
             projeto focado em ser uma pequena página onde você monta o convite e
